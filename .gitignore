@@ -1,1 +1,8 @@
-.gradle
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+
+# CMake/NDK build output (externalNativeBuild)
+.cxx/
