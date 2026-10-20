@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash (androidx.core:core-splashscreen): API 31+ — системный SplashScreen,
+         ниже — фолбэк библиотеки. -->
+    <style name="Theme.Catinder.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Catinder</item>
+    </style>
+
+    <!-- Тема приложения после splash. -->
+    <style name="Theme.Catinder" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ic_launcher_background</item>
+    </style>
+</resources>
